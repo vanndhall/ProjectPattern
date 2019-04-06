@@ -1,8 +1,6 @@
 import org.junit.Test;
 
 import java.math.BigDecimal;
-import java.util.Arrays;
-import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 
@@ -32,5 +30,6 @@ public class CommandCalculatorTest {
 
         // Then
         assertEquals(new BigDecimal("6"), result);
+
     }
 }
